@@ -7,8 +7,11 @@ This project aimed to provide CommBank with data-driven marketing intelligence b
 The project mainly focused on transforming unstructured Twitter (X) data into structured data for potential marketing intelligence regarding CommBank. Utilizing Python for web scraping, I successfully extracted and structured data from CommBank's Twitter activity, creating a comprehensive table. This structured data is now prepared for further analysis, including examining tweet engagement metrics, performing sentiment analysis on replies and quote retweets, analyzing user mentions, and profiling audience demographics. This structured dataset lays the groundwork for a data-driven understanding of CommBank's audience, enabling targeted marketing strategies in future analysis.
 
 import pandas as pd
+
 import numpy as np
+
 from bs4 import BeautifulSoup
+
 import requests
 
 
@@ -51,12 +54,17 @@ stars = stars[:3500]
 print(stars)
 
 reviews_series = pd.Series(reviews)
+
 stars_series = pd.Series(stars)
+
 date_series = pd.Series(date)
+
 country_series = pd.Series(country)
 
 df = pd.DataFrame({"reviews": reviews_series, "stars": stars_series, "date": date_series, "country": country_series})
+
 print(df)
 
 BA_table = df.to_csv("BA.csv", index= True)
+
 BA_table
