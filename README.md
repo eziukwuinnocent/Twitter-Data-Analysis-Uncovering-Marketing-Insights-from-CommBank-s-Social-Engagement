@@ -1,4 +1,4 @@
-# Twitter Data Analysis: Uncovering Marketing Insights from CommBank's Social Engagement
+# Twitter Data Analysis: Uncovering Marketing Insights from Common Wealth Bank's Social Engagement
 
 ![Image Alt](https://github.com/eziukwuinnocent/Twitter-Data-Analysis-Uncovering-Marketing-Insights-from-CommBank-s-Social-Engagement/blob/9104d9472c2aa34d9280b83e987b219b24d1440b/CommBank.jpg)
 
